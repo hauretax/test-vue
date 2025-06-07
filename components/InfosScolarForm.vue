@@ -8,7 +8,7 @@
                 {{ title }}
             </h2>
 
-            <button v-if="!isCollapsed" @click="toggleCollapse"
+            <button @click="toggleCollapse" v-if="!isCollapsed" 
                 class="text-black text-xl flex justify-center items-center"
                 style="width: 20px; height: 20px; padding: 8px; gap: 8px;">
                 ✕
