@@ -1,7 +1,10 @@
 <template>
 
   <Header progress="100" />
+
   <div class='bg-[#F7F3F0] h-1000 p-4'>
+
+    <SchoolCard />
 
     <InfosScolarForm class="my-4" title="Informations scolaires" :groups="formGroups" :isOpen="true" />
 
