@@ -1,13 +1,11 @@
 <template>
-  <div class='bg-black h-1000' >
-    <h1>Training</h1>
-    <Puce :active="true" title="Active item" />
-    <Puce :active="false" title="non Active item" />
 
+  <Header progress="100" />
+  <div class='bg-[#F7F3F0] h-1000 p-4'>
 
-    <InfosScolarForm class="my-4" title="Informations scolaires" :groups="formGroups":isOpen="true" />
-    
-    <InfosScolarForm title="Informations scolaires 2" :groups="formGroups":isOpen="false" />
+    <InfosScolarForm class="my-4" title="Informations scolaires" :groups="formGroups" :isOpen="true" />
+
+    <InfosScolarForm title="Informations scolaires 2" :groups="formGroups" :isOpen="false" />
   </div>
 </template>
 
