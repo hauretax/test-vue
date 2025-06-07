@@ -1,6 +1,6 @@
 <template>
     <div @click="toggleCollapse" class="transition-all duration-1000 overflow-hidden  relative 
-            flex max-w-[720px] p-4 flex-col items-start self-stretch 
+            flex  p-4 flex-col items-start self-stretch 
             rounded-2xl bg-white" :class="{ 'max-h-[100px]': isCollapsed, 'max-h-[2000px]': !isCollapsed }">
         <div class="flex items-center justify-between pt-2 w-full ">
             <h2 class="emphasis text-ellipsis overflow-hidden " :class="{ 'flex-1': isCollapsed, 'mb-4': !isCollapsed }"
